@@ -1,3 +1,3 @@
 # Old GitHub Feed
 
-A small extension to bring back the classic GitHub feed.
+A small extension that packages [`old-github-feed`](https://github.com/Gerrit0/old-github-feed) up into a WebExtension.
