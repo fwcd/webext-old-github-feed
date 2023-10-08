@@ -1,0 +1,3 @@
+[submodule "old-github-feed"]
+	path = old-github-feed
+	url = https://github.com/Gerrit0/old-github-feed.git

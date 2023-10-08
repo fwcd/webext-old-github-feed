@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Old GitHub Feed",
+  "version": "0.1.0",
+  "description": "Replaces the GitHub feed with the classic /dashboard-feed",
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "old-github-feed@fwcd.dev"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["old-github-feed/old-feed.user.js"]
+    }
+  ]
+}
