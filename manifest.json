@@ -13,7 +13,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
+      "matches": [
+        "https://github.com/",
+        "https://github.com/dashboard"
+      ],
       "js": ["old-github-feed/old-feed.user.js"]
     }
   ]
